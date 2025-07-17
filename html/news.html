@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEWS</title>
+    <!-- link output -->
+    <link rel="stylesheet" href="/src/output.css">
+    <!-- google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- link flowbite -->
+    <link rel="stylesheet" href="../node_modules/flowbite/dist/flowbite.min.css">
+</head>
+<body>
+    <!-- start header -->
+    <header>
+    <!-- start navbar -->
+        <nav class="bg-white border-gray-200 dark:bg-gray-900">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <a href="/src/index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <img src="/images/logo.jpg" class="h-8" alt="Flowbite Logo" />
+                </a>
+                <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="/images/icons8-menu.svg" fill="none" viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                    </svg>
+                </button>
+                <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                    <a href="/src/index.html" class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">HOME</a>
+                    </li>
+                    <li>
+                    <a href="/html/about.html" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">ABOUT</a>
+                    </li>
+                    <li>
+                    <a href="/html/movie.html" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">MOVIE</a>
+                    </li>
+                    <li>
+                    <a href="#news" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">NEWS</a>
+                    </li>
+                    <li>
+                    <a href="/html/ticket.html" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">TICKET</a>
+                    </li>
+                    <li>
+                        <a href="/html/signin.html" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center md:ml-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Sign In
+                        </a>
+                    </li>
+                    <!-- <li>
+                        <a href="/html/signup.html" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center md:ml-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Sign Up
+                        </a>
+                    </li> -->
+                </ul>
+
+                </div>
+            </div>
+        </nav>
+    <!-- end navbar -->
+    </header>
+    <!-- end header -->
+
+
+    <!-- start main -->
+     <main>
+    <!-- Background image with overlay -->
+    <section class="container mx-auto px-4 mb-10">
+        <div class="relative bg-cover bg-center min-h-screen" style="background-image: url('/images/fanmeeting.jpg');">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+
+            <!-- Content -->
+            <div class="relative z-10 flex flex-col items-center justify-center min-h-screen text-white px-4 pt-32">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mt-10">
+
+                <!-- Card 1 -->
+                <div class="bg-white text-black rounded-lg overflow-hidden shadow-lg text-center">
+                <img src="/images/fanmeeting.jpg" alt="Concert" class="w-full h-40 object-cover">
+                <div class="text-red-600 font-bold text-lg mt-2">START FROM 120$/HRS</div>
+                <div class="font-semibold mt-1">LIVE CONCERT</div>
+                <div class="text-sm mb-4">FAN MEETING</div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-white text-black rounded-lg overflow-hidden shadow-lg text-center">
+                <img src="/images/presentation seminar.jpg" alt="Movie" class="w-full h-40 object-cover">
+                <div class="text-red-600 font-bold text-lg mt-2">START FROM 5$/HRS</div>
+                <div class="font-semibold mt-1">MOVIE DATE</div>
+                <div class="text-sm mb-4">GROUP MOVIE</div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-white text-black rounded-lg overflow-hidden shadow-lg text-center">
+                <img src="/images/new bg1.jpg" alt="Presentation" class="w-full h-40 object-cover">
+                <div class="text-red-600 font-bold text-lg mt-2">START FROM 10$/HRS</div>
+                <div class="font-semibold mt-1">PRESENTATION</div>
+                <div class="text-sm mb-4">SEMINAR</div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="bg-white text-black rounded-lg overflow-hidden shadow-lg text-center">
+                <img src="/images/comingsoon.jpg" alt="Haunting" class="w-full h-40 object-cover">
+                <div class="text-red-600 font-bold text-lg mt-2">START FROM 9$/HRS</div>
+                <div class="font-semibold mt-1">HAUNTING</div>
+                <div class="text-sm mb-4">COMING SOON</div>
+                </div>
+
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Gallery Section -->
+    <section class="container mx-auto px-4 mb-10">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <img src="/images/group movies.jpg" class="rounded" alt="Gallery 1" />
+        <img src="/images/movie new.jpg" class="rounded" alt="Gallery 2" />
+        <img src="/images/superman.jpg" class="rounded" alt="Gallery 3" />
+        <img src="/images/ticketbox_popconzone.jpg" class="rounded" alt="Gallery 4" />
+        <img src="/images/AMA_0183.jpg" class="rounded" alt="Gallery 5" />
+        <img src="/images/film date.jpg" class="rounded" alt="Gallery 6" />
+        <img src="/images/cinema aesthetic.jpg" class="rounded" alt="Gallery 7" />
+        <img src="/images/cinema spiderman.jpg" class="rounded" alt="Gallery 8" />
+        <img src="/images/fanmeeting.jpg" class="rounded" alt="Gallery 9" />
+      </div>
+    </section>
+     </main>
+     <!-- end main -->
+    
+         <!--  start footer -->
+    <footer class="bg-white rounded-lg shadow-sm dark:bg-gray-900 m-4">
+        <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <a href="/src/index.html" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                    <img src="/images/logo.jpg" class="h-8" alt="Flowbite Logo" />
+                </a>
+                <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                    <li>
+                        <a href="#" class="hover:underline me-4 md:me-6">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+            <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400"> @2025 <a href="/src/index.html" class="hover:underline">web</a>cinema</span>
+        </div>
+    </footer>
+    <!-- end footer -->
+</body>
+</html>
