@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --color-primary-10: #060606;
+    --color-secondary-30: #F70A0A; 
+    --color-tertiary-60: #FFFFFF;
+    --color-login: #3C1AB9;
+    --font-family: 'Roboto', sans-serif;
+    --font-family: "Kantumruy Pro", sans-serif;
+}
