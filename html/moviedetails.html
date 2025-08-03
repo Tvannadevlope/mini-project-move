@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>រឿងកំហឹង</title>
+    <link rel="shortcut icon" href="/images/Logo.png" type="image/x-icon" />
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="/src/output.css" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Flowbite -->
+    <link
+      rel="stylesheet"
+      href="../node_modules/flowbite/dist/flowbite.min.css"
+    />
+  </head>
+  <body class="pb-10 text-base font-[Roboto] bg-gray-100">
+    <!-- Navbar -->
+    <header>
+
+      <!-- Start Navbar -->
+      <nav class="bg-white border-b border-gray-300">
+        <div
+          class="max-w-screen-xl mx-auto p-4 flex items-center justify-between"
+        >
+          <!-- Logo -->
+          <a href="/index.html" class="flex items-center space-x-3">
+            <img src="/images/logo.jpg" class="h-8" alt="Fweb Cinema Logo" />
+          </a>
+
+          <!-- Menu + Sign In on Right -->
+          <div class="flex items-center space-x-6">
+            <!-- Menu Items -->
+            <ul class="flex items-center space-x-4 font-medium">
+              <li>
+                <a
+                  href="/html/index.html"
+                  class="text-blue-700 font-semibold hover:underline"
+                  >HOME</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/html/about.html"
+                  class="text-gray-900 hover:text-blue-700"
+                  >ABOUT</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/html/movie.html"
+                  class="text-gray-900 hover:text-blue-700"
+                  >MOVIE</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/html/news.html"
+                  class="text-gray-900 hover:text-blue-700"
+                  >NEWS</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/html/ticket.html"
+                  class="text-gray-900 hover:text-blue-700"
+                  >TICKET</a
+                >
+              </li>
+            </ul>
+
+            <!-- Sign In Button -->
+            <!-- <a href="/html/signin.html"
+                    class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    Sign In
+                </a> -->
+          </div>
+        </div>
+      </nav>
+      <!-- end navbar -->
+    </header>
+
+    <!-- Movie Info Section -->
+    <div
+      class="flex flex-col lg:flex-row max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10 gap-8 bg-black rounded-xl overflow-hidden"
+    >
+      <!-- Poster -->
+      <div class="w-full lg:w-1/2">
+        <img
+          src="/images/Witch's anger.png"
+          class="w-full h-auto object-cover rounded-lg"
+          alt="The Witch's anger poster"
+        />
+      </div>
+
+      <!-- Details -->
+      <div class="w-full lg:w-1/2 text-white p-4 sm:p-6">
+        <h2 class="text-2xl sm:text-3xl font-bold mb-4 font-family">
+          គំហឹងធ្មប់ | The Witch's anger
+        </h2>
+        <ul class="space-y-2 text-gray-300 text-base font-family">
+          <li>📍 Genre: Horror</li>
+          <li>⏱ Duration: 2h:15mn</li>
+          <li>📅 Release: 26 June 2025</li>
+          <li>
+            📌 Detail:
+            រឿងនិទានសងសឹកដែលធ្លាប់មានតែក្នុងរឿងព្រេងប្រាប់អំពីជីវិតនារីម្នាក់ឈ្មោះ
+            មាលា ដែលជាក្មេងស្រីស្លូតបូត
+            ប៉ុន្តែបែរជាក្លាយទៅជាធ្មប់ដ៏កំហឹងក្រោយបាត់បង់មនុស្សជាទីស្រឡាញ់។
+          </li>
+        </ul>
+
+        <!-- Rating -->
+        <div class="flex flex-wrap items-center pt-5 gap-1">
+          <svg
+            class="w-5 h-5 text-yellow-400"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+          >
+            <path
+              d="M10 15l-5.878 3.09L5.454 12.5 1 8.91l6.062-.878L10 3l2.938 5.032L19 8.91l-4.454 3.59 1.332 5.59z"
+            />
+          </svg>
+          <svg
+            class="w-5 h-5 text-yellow-400"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+          >
+            <path
+              d="M10 15l-5.878 3.09L5.454 12.5 1 8.91l6.062-.878L10 3l2.938 5.032L19 8.91l-4.454 3.59 1.332 5.59z"
+            />
+          </svg>
+          <svg
+            class="w-5 h-5 text-yellow-400"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+          >
+            <path
+              d="M10 15l-5.878 3.09L5.454 12.5 1 8.91l6.062-.878L10 3l2.938 5.032L19 8.91l-4.454 3.59 1.332 5.59z"
+            />
+          </svg>
+          <svg
+            class="w-5 h-5 text-yellow-400"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+          >
+            <path
+              d="M10 15l-5.878 3.09L5.454 12.5 1 8.91l6.062-.878L10 3l2.938 5.032L19 8.91l-4.454 3.59 1.332 5.59z"
+            />
+          </svg>
+          <svg
+            class="w-5 h-5 text-gray-400"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+          >
+            <path
+              d="M10 15l-5.878 3.09L5.454 12.5 1 8.91l6.062-.878L10 3l2.938 5.032L19 8.91l-4.454 3.59 1.332 5.59z"
+            />
+          </svg>
+          <span
+            class="ml-3 bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded-sm"
+            >4.0</span
+          >
+        </div>
+
+        <!-- Button -->
+        <a href="/html/seatbooking.html">
+          <button
+            class="mt-6 text-sm sm:text-base px-6 py-2 sm:py-2.5 text-white bg-red-600 hover:bg-red-500 rounded-xl transition duration-300"
+          >
+            Get Ticket
+          </button>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

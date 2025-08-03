@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TICKET</title>
+    <link rel="shortcut icon" href="/images/Logo.png" type="image/x-icon">
     <!-- link tailwind css -->
     <link rel="stylesheet" href="/src/output.css">
     <!-- google font -->
@@ -16,82 +17,125 @@
 </head>
 <body>
     <!-- start header -->
-     <header>
+    <header>
     <!-- start navbar -->
-        <nav class="bg-white border-gray-200 dark:bg-gray-900">
-            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                <a href="/index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
-                    <img src="/images/logo.jpg" class="h-8" alt="web cinema Logo" />
-                </a>
-                <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
-                    <span class="sr-only">Open main menu</span>
-                    <svg class="w-5 h-5" aria-hidden="true" xmlns="/images/icons8-menu.svg" fill="none" viewBox="0 0 17 14">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-                    </svg>
-                </button>
-                <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-                <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-                    <li>
-                    <a href="/index.html" class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">HOME</a>
-                    </li>
-                    <li>
-                    <a href="/html/about.html" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">ABOUT</a>
-                    </li>
-                    <li>
-                    <a href="/html/movie.html" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">MOVIE</a>
-                    </li>
-                    <li>
-                    <a href="/html/news.html" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">NEWS</a>
-                    </li>
-                    <li>
-                    <a href="#ticket" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">TICKET</a>
-                    </li>
-                    <li>
-                        <a href="/html/signin.html" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center md:ml-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                        Sign In
-                        </a>
-                    </li>
-                    <!-- <li>
-                        <a href="/html/signup.html" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center md:ml-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                        Sign Up
-                        </a>
-                    </li> -->
-                </ul>
+        <nav class="bg-white border-b border-gray-300 w-full">
+          <div class="max-w-screen-xl mx-auto p-4 flex items-center justify-between">
+            <!-- Logo -->
+            <a href="/index.html" class="flex items-center space-x-3">
+              <img src="/images/logo.jpg" class="h-8" alt="Fweb Cinema Logo" />
+            </a>
 
-                </div>
+            <!-- Menu + Sign In on Right -->
+            <div class="flex items-center space-x-6">
+              <!-- Menu Items -->
+              <ul class="flex items-center space-x-4 font-medium">
+                <li>
+                  <a href="/index.html" class="text-blue-700 font-semibold hover:underline">HOME</a>
+                </li>
+                <li>
+                  <a href="/html/about.html" class="text-gray-900 hover:text-blue-700">ABOUT</a>
+                </li>
+                <li>
+                  <a href="/html/movie.html" class="text-gray-900 hover:text-blue-700">MOVIE</a>
+                </li>
+                <li>
+                  <a href="/html/news.html" class="text-gray-900 hover:text-blue-700">NEWS</a>
+                </li>
+                <li>
+                  <a href="/html/ticket.html" class="text-gray-900 hover:text-blue-700">TICKET</a>
+                </li>
+              </ul>
+
+              <!-- Sign In Button -->
+              <!-- <a href="/html/signin.html"
+                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                Sign In
+              </a> -->
             </div>
+          </div>
         </nav>
-
     <!-- end navbar -->
     </header>
     <!-- end header --> 
+    <main>
+      <!--Banner-->
+      <section>
+        <img
+          class="w-full h-190"
+          src="/images/Ticket_hello.png"
+          alt="Hello section"
+        />
+      </section>
+      <!--Ticket-->
+      <section>
+        <h1 class="text-lg font-semibold text-red-700 ml-8 mt-7 mb-7">
+          Ticket
+        </h1>
+        <div class="justify-items-center mt-3">
+          <img
+            class="border-2 border-black rounded w-200"
+            src="/images/Ticket.PNG"
+            alt="Ticket 1"
+          />
+        </div>
+        <div class="justify-items-center mt-6">
+          <img
+            class="border-2 border-black rounded w-200"
+            src="/images/Ticket.PNG"
+            alt="Ticket 2"
+          />
+        </div>
+        <div class="justify-items-center mt-6">
+          <img
+            class="border-2 border-black rounded w-200"
+            src="/images/Ticket.PNG"
+            alt="Ticket 3"
+          />
+        </div>
+        <div class="justify-items-center mt-6">
+          <img
+            class="border-2 border-black rounded w-200"
+            src="/images/Ticket.PNG"
+            alt="Ticket 4"
+          />
+        </div>
+      </section>
+    </main>
 
 
+    <!-- Start Footer -->
+    <footer class="bg-white dark:bg-gray-900">
+        <div class="w-full max-w-screen-xl mx-auto px-4 py-6">
 
-    <!--  start footer -->
-    <footer class="bg-white dark:bg-gray-900 m-4">
-        <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
-            <div class="sm:flex sm:items-center sm:justify-between">
-                <a href="/index.html" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
-                    <img src="/images/logo.jpg" class="h-8" alt="web cinema Logo" />
-                </a>
-                <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
-                    <li>
-                        <a href="#" class="hover:underline me-4 md:me-6">About</a>
-                    </li>
-                    <li>
-                        <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
-                    </li>
-                    <li>
-                        <a href="#" class="hover:underline">Contact</a>
-                    </li>
-                </ul>
+            <!-- Top Row: Logo + Navigation -->
+            <div class="flex items-center justify-between flex-nowrap">
+            <!-- Logo -->
+            <a href="/index.html" class="flex items-center space-x-3">
+                <img src="/images/logo.jpg" class="h-8" alt="Web Cinema Logo" />
+            </a>
+
+            <!-- Navigation Links -->
+            <ul class="flex space-x-6 text-sm font-medium text-gray-500 dark:text-gray-400">
+                <li><a href="#" class="hover:underline">About</a></li>
+                <li><a href="#" class="hover:underline">Privacy Policy</a></li>
+                <li><a href="#" class="hover:underline">Contact</a></li>
+            </ul>
             </div>
-            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-            <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400"> @2025 <a href="/index.html" class="hover:underline">web</a>cinema</span>
+
+            <!-- Divider -->
+            <hr class="my-6 border-gray-200 dark:border-gray-700" />
+
+            <!-- Bottom Row: Copyright -->
+            <div class="text-center">
+            <span class="text-sm text-gray-500 dark:text-gray-400">
+                ©2025 <a href="/index.html" class="hover:underline">webcinema</a>
+            </span>
+            </div>
+
         </div>
     </footer>
-    <!-- end footer -->
+    <!-- End Footer -->
     
 </body>
 </html>
